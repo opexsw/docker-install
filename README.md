@@ -1,17 +1,9 @@
 docker-install Cookbook
 =======================
-TODO: Enter the cookbook description here.
+1. This cookbook installs docker
+2. manage docker daemon with upstart script
+3. manage docker daemon with systemd unit files when tls_verify attribute is set true.
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
-
-Requirements
-------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
-
-e.g.
-#### packages
-- `toaster` - docker-install needs toaster to brown your bagel.
 
 Attributes
 ----------
@@ -51,18 +43,3 @@ Just include `docker-install` in your node's `run_list`:
 }
 ```
 
-Contributing
-------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
-
-e.g.
-1. Fork the repository on Github
-2. Create a named feature branch (like `add_component_x`)
-3. Write your change
-4. Write tests for your change (if applicable)
-5. Run the tests, ensuring they all pass
-6. Submit a Pull Request using Github
-
-License and Authors
--------------------
-Authors: TODO: List authors
